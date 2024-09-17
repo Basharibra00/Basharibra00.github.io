@@ -26,6 +26,7 @@
     background-color: #565555;
     background-image: url(backgroundmenu.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     width: 100%;
     top: 0;
