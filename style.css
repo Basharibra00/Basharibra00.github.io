@@ -30,7 +30,7 @@
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #a80d0d;
   }
   footer {
     background-color: rgb(9, 10, 10);
@@ -38,3 +38,4 @@
     padding: 15px;
     text-align: center;
   }
+  
