@@ -78,3 +78,9 @@
     clear: both;
     display: table;
   }
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
