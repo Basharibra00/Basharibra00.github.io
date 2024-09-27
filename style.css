@@ -1,57 +1,57 @@
   body {
-    background-color: rgb(200, 169, 228); 
+    background-color: rgb(200, 169, 228); /* Achtergrondkleur van de pagina. */
 
   }
   h1 {
-    color: rgb(0, 0, 0);
-    border-style: dashed; 
-    border-color: blanchedalmond;
-    border-width: 5px;
-    text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    color: rgb(0, 0, 0); /* Kleur van de hoofdtitel (zwart). */
+    border-style: dashed;  /* Dashed randstijl voor de titel. */
+    border-color: blanchedalmond; /* Kleur van de rand (blanched almond). */
+    border-width: 5px; /* Dikte van de rand. */
+    text-align: center; /* Centreert de tekst. */
+  margin-left: 400px; /* Linkermarge om ruimte te creëren. */
+  margin-right: 400px; /* Rechtermarge om ruimte te creëren. */
+  padding-top: 10px; /* Bovenpadding voor extra ruimte. */
+  padding-bottom: 10px; /* Onderpadding voor extra ruimte. */
   }
   h2 {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+    color: rgb(0, 0, 0); /* Kleur van subtitels (zwart). */
+    text-decoration: underline; /* Onderstreept de tekst. */
   }
   h3 {
-    color: rgb(0, 0, 0);
-    font-weight: normal;
+    color: rgb(0, 0, 0); /* Kleur van sub-subtitels titels (zwart). */
+    font-weight: normal; /* Niet vetgedrukt voor de tekst. */
   }
   h4 { 
-    color: rgb(0, 0, 0);
-    font-weight: normal;
+    color: rgb(0, 0, 0); /* Kleur van vierde-niveau titels (zwart). */
+    font-weight: normal; /* Niet vetgedrukt voor de tekst. */
   }
   p {
-    color: rgb(0, 0, 0);
-    font-weight: normal;
+    color: rgb(0, 0, 0); /* Kleur van paragrafen (zwart). */
+    font-weight: normal; /* Niet vetgedrukt voor de tekst. */
   }
   
   
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    list-style-type: none; /* Verwijdert opsommingstekens van de lijst. */
+    margin: 0; /* Verwijdert marge rondom de lijst. */
+    padding: 0;  /* Verwijdert padding rondom de lijst. */
+    overflow: hidden; /* Voorkomt dat inhoud buiten de lijst valt. */
 
-    background-color: #565555;
-    background-image: url(background2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    font-weight: bold;
+    background-color: #565555; /* Achtergrondkleur voor de navigatiebalk. */
+    background-image: url(background2.jpg); /* Achtergrondafbeelding voor de navigatiebalk. */
+    background-repeat: no-repeat; /* Hiermee wordt herhaling van de afbeelding voorkomen */
+    background-size: cover; /* Hiermee wordt de afbeelding geschaald om de hele achtergrond te bedekken */
+    position: fixed; /* Hier wordt de navigatiebalk vastgezet bovenaan het scherm */
+    width: 100%; /* Breedte van de lijst op 100% van het venster. */
+    top: 0; /* Plaatst de lijst aan de bovenkant van de pagina. */
+    z-index: 1000;  /* Zorgt ervoor dat de lijst boven andere elementen staat. */
+    font-weight: bold;  /* Maakt de tekst in de lijst vetgedrukt. */
     
     
   }
   
   li {
-    float: left;
+    float: left; /* Laat de lijstitems naast elkaar zien. */
   }
   
   li a {
@@ -69,7 +69,7 @@
     background-color: rgb(83, 83, 83);
     color: #f8f3f3;
     padding: 15px;
-    text-align: center;
+    text-align: center;  /* Centreert de footertekst. */
   }
   div.gallery {
     margin: 5px;
@@ -92,6 +92,6 @@
 
 
 .voetbal{
-float: right;
+float: right;  /* Laat het element aan de rechterkant van de container zweven. */
 padding-right: 15px;
 }
